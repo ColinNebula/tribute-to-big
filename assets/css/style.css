@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    color: #3d4b71;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+/* Header style starts here */
+header {
+    padding: 20px 35px;
+    background-color: #2c374e;
+}
+
+header h1 {
+    font-weight: bold;
+    font-size: 36px;
+    color: #ffffff;
+    margin: 0;
+    display: inline-block;
+}
+
+header h3 {
+    margin: 0;
+}
+
+header a {
+    text-decoration: none;
+    color: #fce139;
+}
+
+header nav {
+    float: right;
+    margin: 7px 0;
+}
+
+header nav ul li {
+    display: inline;
+}
+
+header nav ul li a {
+    margin: 0 30px;
+    font-weight: lighter;
+    font-size: 22px;
+}
