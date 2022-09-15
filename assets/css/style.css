@@ -28,7 +28,7 @@ header h3 {
 
 header a {
     text-decoration: none;
-    color: #fce139;
+    color: #fca148;
 }
 
 header nav {
@@ -44,4 +44,157 @@ header nav ul li a {
     margin: 0 30px;
     font-weight: lighter;
     font-size: 22px;
+}
+
+/* Footer style starts here */
+footer {
+    background: #fca148;
+    width: 100%;
+    padding: 40px 35px;
+}
+
+footer h2 {
+    display: inline;
+    color: #2c374e;
+    font-size: 30px;
+    margin: 0;
+}
+
+footer div {
+    float: right;
+    line-height: 1.5;
+    text-align: right;
+}
+
+footer a {
+    color: #2c374e;
+}
+
+/* big elements starts here*/
+.big {
+    width: 900px;
+    margin: 0 auto 30px auto;
+    background: #fca148;
+    color:#2c374e; 
+    overflow: auto;
+}
+
+.big img {
+    width: 60%;
+    float: left;
+}
+
+.big-bio {
+    padding: 35px;
+    float: left;
+    width: 65%;
+}
+
+.big-bio h3 {
+    font-size: 32px;
+    margin-bottom: 8px;
+}
+
+.big-bio p {
+    font-size: 17px;
+    line-height: 1.3;
+}
+
+.big-bio h4 {
+    font-weight: lighter;
+    font-size: 17px;
+    margin-bottom: 25px;
+}
+
+.text-left {
+    text-align: left;
+}
+
+/* favorite tracks starts here */
+.fav {
+    width: 900px;
+    margin: 0 auto 30px auto;
+    background: #fca148;
+    color:#2c374e; 
+    overflow: auto;
+}
+
+.fav img {
+    width: 60%;
+    float: left;
+}
+
+.fav-tracks {
+    padding: 35px;
+    float: left;
+    width: 65%;
+}
+
+.fav-tracks h3 {
+    font-size: 32px;
+    margin-bottom: 8px;
+}
+
+.fav-tracks p {
+    font-size: 17px;
+    line-height: 1.3;
+}
+
+.fav-tracks h4 {
+    font-weight: lighter;
+    font-size: 17px;
+    margin-bottom: 25px;
+}
+
+.fav ul   {
+    padding: 35px;
+    float: right;
+}
+
+.text-left {
+    text-align: left;
+}
+
+/* gallery elements starts here */
+.gallery {
+    width: 900px;
+    margin: 0 auto 30px auto;
+    background: #fca148;
+    color:#2c374e; 
+    overflow: auto;
+}
+
+.gallery img {
+    width: 60%;
+    float: left;
+}
+
+.image-gallery {
+    padding: 35px;
+    float: left;
+    width: 65%;
+}
+
+.image-gallery h3 {
+    font-size: 32px;
+    margin-bottom: 8px;
+}
+
+.image-gallery p {
+    font-size: 17px;
+    line-height: 1.3;
+}
+
+.image-gallery h4 {
+    font-weight: lighter;
+    font-size: 17px;
+    margin-bottom: 25px;
+}
+
+.gallery ul   {
+    padding: 35px;
+    float: right;
+}
+.text-left {
+    text-align: left;
 }
