@@ -11,7 +11,7 @@ body {
 /* Header style starts here */
 header {
     padding: 20px 35px;
-    background-color: #2c374e;
+    background-color: #023047;
 }
 
 header h1 {
@@ -48,7 +48,7 @@ header nav ul li a {
 
 /* Footer style starts here */
 footer {
-    background: #fca148;
+    background: #eae2b7;
     width: 100%;
     padding: 40px 35px;
 }
