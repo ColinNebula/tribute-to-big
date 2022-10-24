@@ -7,6 +7,10 @@
 body {
     color: #3d4b71;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    list-style: none;
 }
 /* Header style starts here */
 header {
@@ -54,7 +58,7 @@ header nav ul  {
 header nav ul li a {
     margin: 0 30px;
     font-weight: lighter;
-    font-size: 22px;
+    font-size: 1.55vw;
 }
 
 /* Footer style starts here */
@@ -62,10 +66,13 @@ footer {
     background: #eae2b7;
     width: 100%;
     padding: 40px 35px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
 }
 
 footer h2 {
-    display: inline;
     color: #2c374e;
     font-size: 30px;
     margin: 0;
@@ -88,6 +95,10 @@ footer a {
     background: #fca148;
     color:#2c374e; 
     overflow: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    list-style: none;
 }
 
 .big img {
@@ -128,6 +139,10 @@ footer a {
     background: #fca148;
     color:#2c374e; 
     overflow: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    list-style: none;
 }
 
 .fav img {
@@ -139,6 +154,10 @@ footer a {
     padding: 35px;
     float: left;
     width: 65%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    list-style: none;
 }
 
 .fav-tracks h3 {
@@ -173,6 +192,10 @@ footer a {
     background: #fca148;
     color:#2c374e; 
     overflow: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    list-style: none;
 }
 
 .gallery img {
