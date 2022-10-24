@@ -7,11 +7,24 @@
 body {
     color: #3d4b71;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    list-style: none;
+    font-size: 1.55vw;
 }
 /* Header style starts here */
 header {
     padding: 20px 35px;
     background-color: #023047;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    list-style: none;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    width: 100%;
 }
 
 header h1 {
@@ -19,7 +32,7 @@ header h1 {
     font-size: 36px;
     color: #ffffff;
     margin: 0;
-    display: inline-block;
+    display: flex;
 }
 
 header h3 {
@@ -32,18 +45,22 @@ header a {
 }
 
 header nav {
-    float: right;
     margin: 7px 0;
 }
 
-header nav ul li {
-    display: inline;
+header nav ul  {
+     display: flex;
+     flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+      
 }
 
 header nav ul li a {
     margin: 0 30px;
     font-weight: lighter;
-    font-size: 22px;
+    font-size: 1.55vw;
 }
 
 /* Footer style starts here */
@@ -51,10 +68,13 @@ footer {
     background: #eae2b7;
     width: 100%;
     padding: 40px 35px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
 }
 
 footer h2 {
-    display: inline;
     color: #2c374e;
     font-size: 30px;
     margin: 0;
@@ -77,16 +97,25 @@ footer a {
     background: #fca148;
     color:#2c374e; 
     overflow: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    list-style: none;
 }
 
 .big img {
     width: 60%;
-    float: left;
+    
+    flex: 1 12%;
+}
+
+.big img img {
+    max-width: 100%;
 }
 
 .big-bio {
     padding: 35px;
-    float: left;
+    
     width: 65%;
 }
 
@@ -117,17 +146,26 @@ footer a {
     background: #fca148;
     color:#2c374e; 
     overflow: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    list-style: none;
 }
 
 .fav img {
+    flex: 1 12%;
+    margin-right: 20px;
     width: 60%;
-    float: left;
 }
 
 .fav-tracks {
     padding: 35px;
     float: left;
     width: 65%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    list-style: none;
 }
 
 .fav-tracks h3 {
@@ -162,16 +200,19 @@ footer a {
     background: #fca148;
     color:#2c374e; 
     overflow: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    list-style: none;
 }
 
 .gallery img {
     width: 60%;
-    float: left;
+    flex: 1 12%;
 }
 
 .image-gallery {
     padding: 35px;
-    float: left;
     width: 65%;
 }
 
@@ -198,3 +239,7 @@ footer a {
 .text-left {
     text-align: left;
 }
+
+.flex-row {
+    display: flex;
+  }
