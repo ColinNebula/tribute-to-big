@@ -58,7 +58,7 @@ header nav ul  {
 }
 
 header nav ul li a {
-    margin: 0 30px;
+    padding: 5px 5px;
     font-weight: lighter;
     font-size: 1.55vw;
 }
@@ -242,4 +242,19 @@ footer a {
 
 .flex-row {
     display: flex;
+  }
+
+/* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER */
+@media screen and (max-width: 980px) {
+    
+}
+
+/* MEDIA QUERY FOR TABLETS AND SMALLER */
+@media screen and (max-width: 768px) {
+    
+}
+
+/* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
+@media screen and (max-width: 575px) {
+    
   }
