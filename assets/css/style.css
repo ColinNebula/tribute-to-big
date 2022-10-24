@@ -308,5 +308,35 @@ footer a {
 
 /* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
 @media screen and (max-width: 575px) {
-    
-  }
+    section {
+        padding: 30px 15px;
+    }
+
+    .big h2 {
+        flex: 1 100%;
+        text-align: center;
+    }
+
+    .big-text {
+        flex: 100%;
+    }
+
+    .gallery h2 {
+        flex: 1 100%;
+        text-align: center;
+    }
+
+    .gallery-text {
+        flex: 100%;
+    }
+
+    .fav h2 {
+        flex: 1 100%;
+        text-align: center;
+    }
+
+    .fav-text {
+        flex: 100%;
+    }
+}
+  
