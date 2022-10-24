@@ -105,12 +105,17 @@ footer a {
 
 .big img {
     width: 60%;
-    float: left;
+    
+    flex: 1 12%;
+}
+
+.big img img {
+    max-width: 100%;
 }
 
 .big-bio {
     padding: 35px;
-    float: left;
+    
     width: 65%;
 }
 
@@ -148,8 +153,9 @@ footer a {
 }
 
 .fav img {
+    flex: 1 12%;
+    margin-right: 20px;
     width: 60%;
-    float: left;
 }
 
 .fav-tracks {
@@ -202,12 +208,11 @@ footer a {
 
 .gallery img {
     width: 60%;
-    float: left;
+    flex: 1 12%;
 }
 
 .image-gallery {
     padding: 35px;
-    float: left;
     width: 65%;
 }
 
@@ -234,3 +239,7 @@ footer a {
 .text-left {
     text-align: left;
 }
+
+.flex-row {
+    display: flex;
+  }
